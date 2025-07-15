@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: csp-solver
+
+server:
+  port: 8080
+
+# Solver defaults
+solver:
+  default-timeout-ms: 60000
+  max-solutions: 1000
+
+# Actuator
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+  endpoint:
+    health:
+      show-details: always
+
+# OpenAPI
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
