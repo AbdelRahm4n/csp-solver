@@ -1,6 +1,6 @@
 # CSP Solver
 
-A production-grade Constraint Satisfaction Problem (CSP) Solver implemented as a Spring Boot microservice. All algorithms are implemented from scratch without external CSP libraries.
+A Constraint Satisfaction Problem (CSP) Solver implemented as a Spring Boot microservice. All algorithms are implemented from scratch without external CSP libraries.
 
 ## Features
 
